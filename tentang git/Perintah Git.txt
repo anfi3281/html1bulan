@@ -1,5 +1,6 @@
 Git Command (local)
 
+$ git add
 $ git init
 $ git add <files(s)>
 $ git status
