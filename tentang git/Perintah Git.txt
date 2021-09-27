@@ -16,3 +16,4 @@ $ git config --global user.email "anfi3281@gmail.com"     // menambahkan email
 $ git init                                                // menambahkan staging area
 $ git add index.html                                      // memasukkan file ke staging area (.git)
 $ git commit                                              // meng-commit-kan file
+$ git commit -m "Menambahkan file index.html"             // meng-commit-kan file dengan menbambahkan message atau pesan
