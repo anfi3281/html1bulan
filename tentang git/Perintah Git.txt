@@ -8,3 +8,9 @@ $ git commit
 $ git config
 $ git branch
 $ git help
+
+contoh perintah :
+$ git commit -m "menambahkan index.html"                  // meng-commit-kan file
+$ git config --global user.name "anfi3281"                // menambahkan username
+$ git config --global user.email "anfi3281@gmail.com"     // menambahkan email
+$ git init                                                // menambahkan staging area
