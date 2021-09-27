@@ -1,0 +1,9 @@
+Git Command (local)
+
+$ git init
+$ git add <files(s)>
+$ git status
+$ git commit
+$ git config
+$ git branch
+$ git help
