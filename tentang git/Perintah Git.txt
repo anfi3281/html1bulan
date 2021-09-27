@@ -15,3 +15,4 @@ $ git config --global user.name "anfi3281"                // menambahkan usernam
 $ git config --global user.email "anfi3281@gmail.com"     // menambahkan email
 $ git init                                                // menambahkan staging area
 $ git add index.html                                      // memasukkan file ke staging area (.git)
+$ git commit                                              // meng-commit-kan file
