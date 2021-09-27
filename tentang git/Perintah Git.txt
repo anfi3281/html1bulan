@@ -14,6 +14,7 @@ $ git commit -m "menambahkan index.html"                  // meng-commit-kan fil
 $ git config --global user.name "anfi3281"                // menambahkan username
 $ git config --global user.email "anfi3281@gmail.com"     // menambahkan email
 $ git init                                                // menambahkan staging area
-$ git add index.html                                      // memasukkan file ke staging area (.git)
+$ git add index.html                                      // memasukkan file index.html ke staging area (.git)
+$ git add .                                               // memasukkan semua file ke staging area (.git)
 $ git commit                                              // meng-commit-kan file
 $ git commit -m "Menambahkan file index.html"             // meng-commit-kan file dengan menbambahkan message atau pesan
