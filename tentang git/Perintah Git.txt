@@ -10,15 +10,24 @@ $ git branch
 $ git help
 
 contoh perintah :
-$ git commit -m "menambahkan index.html"                  // meng-commit-kan file
-$ git config --global user.name "anfi3281"                // menambahkan username
-$ git config --global user.email "anfi3281@gmail.com"     // menambahkan email
-$ git init                                                // menambahkan staging area
-$ git add index.html                                      // memasukkan file index.html ke staging area (.git)
-$ git add .                                               // memasukkan semua file ke staging area (.git)
-$ git commit                                              // meng-commit-kan file
-$ git commit -m "Menambahkan file index.html"             // meng-commit-kan file dengan menbambahkan message atau pesan
-$ git log                                                 // history
+$ git commit -m "menambahkan index.html"                     // meng-commit-kan file
+$ git commit -am "Merubah index.html"                        // meng-commit-kan file yang dirubah
+$ git config --global user.name "anfi3281"                   // menambahkan username
+$ git config --global user.email "anfi3281@gmail.com"        // menambahkan email
+$ git init                                                   // menambahkan staging area
+$ git add index.html                                         // memasukkan file index.html ke staging area (.git)
+$ git add .                                                  // memasukkan semua file ke staging area (.git)
+$ git commit                                                 // meng-commit-kan file
+$ git commit -m "Menambahkan file index.html"                // meng-commit-kan file dengan menbambahkan message atau pesan
+$ git log                                                    // history
 $ git log -3                                                 // history 3 perubahan terakhir
 $ git log -- belajarhtml1.html                               // history file belajarhtml1.html
+$ git log --all -- decorate --oneline --graph                // menampilkan grafik dari log
+$ alias graph="git log --all --decorate --oneline --graph"   // menyingkat perintah git log grafik
 $ git checkout 1431b -- belajarhtml1.html                    // mengembalikan file belajarhtml1.html (1431b adalah 5 digit pertama kode hash)
+$ git branch                                                 // melihat cabang dari git
+$ git branch dosen                                           // membuat cabang dosen
+$ git branch mahasiswa                                       // membuat cabang mahasiswa
+$ git checkout dosen                                         // mengganti head ke dosen
+$ git checkout master                                        // mengganti head ke master (utama)
+$ git merge dosen                                            // mem-merge-kan dosen ke master
