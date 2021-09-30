@@ -35,3 +35,4 @@ $ git clone https://github.com/anfi3281/anfi-test-new-3.git  // meng-clone repos
 $ git remote                                                 // remote
 $ git remote -v                                              // melihat remote dengan detail
 $ git push                                                   // mempush repo lokal ke github
+$ git config --list                                          // menampilkan berbagai informasi mengenai config (username dan email)
