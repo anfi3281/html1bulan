@@ -38,3 +38,4 @@ $ git push                                                   // mempush repo lok
 $ git config --list                                          // menampilkan berbagai informasi mengenai config (username dan email)
 $ git config --local user.name "randi"                       // menambahkan username local (khusus repository yang dituju)
 $ git config --local user.email "randiafif2312@gmail.com"    // menambahkan email local (khusus repository yang dituju saja)
+$ git remote add origin https://github.com/anfi3281/anfi-repo-2.git     // menambahkan remote baru
