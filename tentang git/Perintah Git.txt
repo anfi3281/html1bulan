@@ -36,3 +36,5 @@ $ git remote                                                 // remote
 $ git remote -v                                              // melihat remote dengan detail
 $ git push                                                   // mempush repo lokal ke github
 $ git config --list                                          // menampilkan berbagai informasi mengenai config (username dan email)
+$ git config --local user.name "randi"                       // menambahkan username local (khusus repository yang dituju)
+$ git config --local user.email "randiafif2312@gmail.com"    // menambahkan email local (khusus repository yang dituju saja)
