@@ -31,3 +31,7 @@ $ git branch mahasiswa                                       // membuat cabang m
 $ git checkout dosen                                         // mengganti head ke dosen
 $ git checkout master                                        // mengganti head ke master (utama)
 $ git merge dosen                                            // mem-merge-kan dosen ke master
+$ git clone https://github.com/anfi3281/anfi-test-new-3.git  // meng-clone repository github
+$ git remote                                                 // remote
+$ git remote -v                                              // melihat remote dengan detail
+$ git push                                                   // mempush repo lokal ke github
