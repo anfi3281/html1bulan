@@ -42,3 +42,7 @@ $ git remote add origin https://github.com/anfi3281/anfi-repo-2.git     // menam
 $ git push -u origin master                                  // menambahkan repository lokal ke github
 $ git fetch                                                  // mencocokkan file lokal dengan remote (github)
 $ git pull                                                   // menangani file bermasalah
+$ git remote add user randi https://github.com/randi3281/motivasibelajarpemrograman.git	// menambah user anfi di remote
+$ git fetch randi					     // mengecek repository user randi
+$ git merge -u randi/motivasibelajarpemrograman		     // me-merge repository randi
+$ git push -u origin main				     // mempush file ke github
